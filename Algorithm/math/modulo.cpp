@@ -37,7 +37,7 @@
  *      This uses the extended Euclidean algorithm to find the modular inverse.
  * 
  * Reference
- *    - mulmod : jhnah917's message from solved.ac Discord
+ *    - mulmod : https://github.com/kth-competitive-programming/kactl/blob/main/doc/modmul-proof.md
  *    - https://en.wikipedia.org/wiki/Fermat%27s_little_theorem
  */
 
