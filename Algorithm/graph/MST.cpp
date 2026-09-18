@@ -38,7 +38,7 @@ int head(vector<int>& v, int idx) {
     return v[idx] = head(v, v[idx]);
 }
 
-vector<edge> mst(const vector<edge> graph, int vertex_count) {
+vector<edge> mst(const vector<edge>& graph, int vertex_count) {
     vector<edge> out, tree = graph;
     vector<int> vertex(vertex_count + 1);
     for (int i = 0; i < vertex_count + 1; i++) vertex[i] = i;
